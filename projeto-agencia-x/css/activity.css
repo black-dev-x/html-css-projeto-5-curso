@@ -1,0 +1,29 @@
+.main-activities {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: 5vh 15vw;
+}
+.activity {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 5vw;
+}
+.activity-icon {
+    width: 600px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.activity h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 3vh 0;
+}
+.activity p {
+    font-size: 1.2em;
+}

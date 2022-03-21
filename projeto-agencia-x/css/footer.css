@@ -1,0 +1,23 @@
+.footer {
+    background-image: url('../img/rodape.jpg');
+    background-position: center;
+    height:  50vh;
+    padding: 5vh 0;
+}
+.additional-information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info-box {
+    text-align: center;
+    flex-basis: 20%;
+    background-color: white;
+    padding: 3vh 3vw;
+}
+.info-box i {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    display: inline-block;
+}
