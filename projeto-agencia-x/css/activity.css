@@ -8,7 +8,12 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    gap: 5vw;
+    gap: 5vh;
+}
+.activity-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
 }
 .activity-icon {
     width: 600px;
@@ -22,7 +27,6 @@
 .activity h3 {
     font-size: 1.5em;
     font-weight: bold;
-    margin: 3vh 0;
 }
 .activity p {
     font-size: 1.2em;

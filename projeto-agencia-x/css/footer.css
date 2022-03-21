@@ -1,7 +1,6 @@
 .footer {
     background-image: url('../img/rodape.jpg');
     background-position: center;
-    height:  50vh;
     padding: 5vh 0;
 }
 .additional-information {
@@ -20,4 +19,27 @@
     height: 50px;
     font-size: 50px;
     display: inline-block;
+}
+.contact-form {
+    background-color: white;
+    opacity: 0.9;
+    width: 65vw;
+    height: 35vh;
+    margin-left: 15vw;
+    margin-top: 5vh;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vh;
+}
+.contact-form input, .contact-form textarea{
+    width: 75%;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid #AAA;
+}
+.contact-form textarea {
+    height: 35vh;
 }
